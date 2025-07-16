@@ -1,19 +1,43 @@
+
+
+gsap.from("#box-header-logo",{
+  x:-500, //x axis pe move krdein px pe
+  // y:-200, //x axis pe move krdein px pe
+  duration:2, 
+  delay:1,
+  borderRadius:50
+})
+gsap.from("#box-header",{
+  // x:1000, //x axis pe move krdein px pe
+  y:-200, //x axis pe move krdein px pe
+  
+  duration:2, 
+  delay:1,
+  borderRadius:50
+})
+gsap.from("#box-header-btn",{
+  x:500, //x axis pe move krdein px pe
+  // y:-200, //x axis pe move krdein px pe
+  duration:2, 
+  delay:1,
+  borderRadius:50
+})
 gsap.from("#box",{
-  x:200, //x axis pe move krdein px pe
-  // y:100, //x axis pe move krdein px pe
+  x:-1000, //x axis pe move krdein px pe
+  // y:500, //x axis pe move krdein px pe
   duration:2, 
   delay:1,
   borderRadius:50
 })
 gsap.from("#box-inner",{
-  x:500, //x axis pe move krdein px pe
+  x:800, //x axis pe move krdein px pe
   // y:300, //x axis pe move krdein px pe
   duration:2, 
   rotate:360,
   delay:1
 })
 gsap.from("#box-inner-2",{
-  x:500, //x axis pe move krdein px pe
+  x:800, //x axis pe move krdein px pe
   // y:300, //x axis pe move krdein px pe
   duration:2, 
   rotate:360,
@@ -81,3 +105,4 @@ window.addEventListener("scroll", function () {
 })
 
 // end Sticky header
+

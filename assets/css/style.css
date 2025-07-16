@@ -51,6 +51,20 @@ p {
 
 /* Navbar */
 
+.nav-logo {
+  /* display: flex; */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-logo span {
+    font-size: 28px;
+    font-weight: 900;
+    /* line-height: 1.2; */
+    /* margin-bottom: 15px; */
+    color: #f7f6f7;
+}
+
 .navbar-nav li {
   bottom: 0;
 }
@@ -115,8 +129,8 @@ ul.dropdown-menu {
 }
 
 .navbar-brand img {
-  /* width: 245px;
-  height: 115px; */
+  width: 70px;
+  height: 70px;
   width: auto;
   transition: 0.6s;
 }
@@ -224,6 +238,22 @@ section {
   align-items: center;
   justify-content: center;
   transition: all 0.5s ease-in-out;
+}
+
+.type1.text2::after {
+  content: "Hire Me";
+}
+
+.type1.text2::before {
+  content: "My Resume";
+}
+
+.type1.text3::after {
+  content: "Click Me";
+}
+
+.type1.text3::before {
+  content: "Portfolio";
 }
 
 .type1:hover::after {
@@ -334,8 +364,9 @@ header.sticky img {
 .model-input {
   border-color: var(--font-white);
   padding: 10px 15px;
-  color: var(--font-white) !important;
+  /* color: #0e0e34 !important; */
   border: 2px solid;
+  background-color: #ffffff33;
 }
 
 .model-input option{
@@ -415,7 +446,7 @@ header.sticky img {
 	width: 82%;
 }
 .hero-area {
-	padding-top: 150px;
+	padding-top: 170px;
 }
 .hero-caption h2 {
 	font-size: 56px;
@@ -546,7 +577,7 @@ header.sticky img {
   padding: 0;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 0px 3px 1px var(--secondary-purple);
+  /* box-shadow: 0px 0px 3px 1px var(--secondary-purple); */
   cursor: pointer;
   overflow: hidden;
   position: relative;
@@ -555,7 +586,7 @@ header.sticky img {
 .hero-sec .hero-caption {
   border-radius: 5px;
   background: rgb(14 14 52);
-  box-shadow: 0px 0px 3px 1px var(--secondary-purple);
+  /* box-shadow: 0px 0px 3px 1px var(--secondary-purple); */
       /* width: 186px; */
     /* height: 250px; */
   z-index: 1;
@@ -745,4 +776,9 @@ header.sticky img {
 	right: 0;
 	left: 50%;
 }
+
+
+
+
+
 
